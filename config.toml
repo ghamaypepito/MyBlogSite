@@ -1,0 +1,60 @@
+baseurl         = "https://blog.ghamaypepito.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Ghamay Pepito"
+  subtitle    = ""
+
+  cover       = "uploads/Header-Background.jpg"
+  description = "Ghamay Pepito's Blog"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "ghameey"
+  fbName = "ghamaypepito"
+  githubName = "ghamaypepito"
+
+  logo = "uploads/gp2-logo-white.png"
+  orgName = "© Ghamay Pepito | All Rights Reserved"
+  orgWebsite = "https://thumbai.com"
+  orgDescription = "Thumb Alternative Innovations"
+
+  author = "Ghamay Pepito"
+  authorAvatar = "/uploads/Ghamay.jpg"
+  authorLocation = "Las Piñas, Philippines"
+  authorWebsite = "https://ghamaypepito.com"
+  authorDescription = "Web Designer and Developer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Blog"
+  url = "/tags/blog/"
+  weight = 100
+
+[[menu.main]]
+  name = "Portfolio"
+  url = "https://ghamaypepito.com/portfolio"
+  weight = 99
+
+[[menu.main]]
+  name = "Site"
+  url = "https://ghamaypepito.com/"
+  weight = 95

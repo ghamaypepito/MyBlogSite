@@ -1,0 +1,20 @@
+
+.site-logo {
+    max-height: 150px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.site-header:before {
+    bottom: 0;
+    background: rgba(0,0,0,.6);
+}
+
+
+nav.pagination {
+    display: none;
+}
+
+span.hide {
+    display: none;
+}
